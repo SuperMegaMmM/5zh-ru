@@ -1,4 +1,4 @@
-const myVar = "Hello world lol";
+const myVar = "Hello";
 var lol = "LOL";
 console.warn(1234567890);
 
