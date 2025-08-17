@@ -1,6 +1,10 @@
 h1 {color:chocolate;}
 p {color:#cefa87;}
-body{background-color:#87cefa;}
+body {
+  background-image: linear-gradient(to bottom, rgb(61, 61, 232), #87cefa);
+  min-height: 100vh;
+  margin: 8px; 
+}
 a{color: #417659;;}
 #warning {color:red}
 #no-more-here{color:green}
@@ -16,3 +20,13 @@ button {background-color:pink;border-radius:0 100px 0 100px;}
     font-weight: 400;
     font-style: normal;
   } 
+.link {
+ background-color:rgb(17, 121, 11);border-radius:50px 50px 50px 50px;
+ width:100px;
+ height:40px;
+ transition:background-color;
+ transition-duration:500ms;
+}
+.link:hover{
+background-color:rgb(29, 216, 216);
+}
